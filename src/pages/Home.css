@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Bebas;
+    src: url(./Bebas.otf)
+  }
+  
+  .App .App-logo {
+    margin-top: 60px;
+    margin-left: 10px;
+    height: 250px;
+    width: 750px;
+    justify-content:center;
+    pointer-events: none;
+  }
+  
+.App {
+    margin-top: 200px;
+}
+
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-top: 2rem;
+}
+
+
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  button {
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: Bebas;
+    color: white;
+    border: none;
+    background-color: #1a1a1a;
+  
+  }
+
+  .AccueilS {
+    color: rgb(255, 67, 16);
+    font-size: 30px;
+  }
+
+  button:hover{
+    border-color: rgb(255, 67, 16);
+    color: rgb(255, 67, 16);
+  
+  }

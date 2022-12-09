@@ -1,0 +1,81 @@
+@font-face {
+	font-family: Bebas;
+	src: url(./Bebas.otf);
+}
+
+.App-search .App-logo {
+	margin-top: 60px;
+	margin-left: 10px;
+	height: 250px;
+	width: 750px;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.App-search {
+	margin-top: 200px;
+}
+
+body {
+	background-color: #1a1a1a;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	margin-top: 2rem;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+button {
+	margin-top: 20px;
+	border-radius: 5px;
+	font-size: 25px;
+	font-family: Bebas;
+	color: white;
+	border: none;
+	background-color: #1a1a1a;
+}
+
+.AccueilS {
+	color: rgb(255, 67, 16);
+	font-size: 30px;
+}
+
+button:hover {
+	border-color: rgb(255, 67, 16);
+	color: rgb(255, 67, 16);
+}
+
+.al p,
+h3 {
+	padding-left: 0px;
+	margin-bottom: 15px;
+}
+.al p {
+	font-size: 15px;
+}
+
+h3 {
+	font-family: Bebas;
+	font-weight: normal;
+	color: rgb(255, 67, 16);
+}
+
+.search-all {
+	margin-top: 80px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.search-bar {
+	margin-top: 50px;
+	padding: 10px;
+	font-size: x-large;
+}
